@@ -20,11 +20,10 @@ class CreateQuestionsTable extends Migration
             $table->String("title");
             $table->text("body");
             $table->String('slug')->unique();
-            $table->unsignedInteger('views')->default(0);
+            $table->foreignId("user_id");
+            $table->foreignId("best_answer")->nullable(true);
             $table->unsignedInteger('answers')->default(0);
             $table->integer('votes')->default(0);
-            $table->unsignedBigInteger('best_answer')->nullable();
-            $table->unsignedBigInteger('user_id');
 
             $table->foreign("user_id")->references("id")->on("users")->onDelete("cascade");
 
