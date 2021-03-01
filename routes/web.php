@@ -17,3 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('questions', \App\Http\Controllers\QuestionsController::class, ['index','show']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

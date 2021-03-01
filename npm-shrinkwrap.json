@@ -4720,7 +4720,6 @@
             "version": "4.3.1",
             "resolved": "https://registry.npmjs.org/debug/-/debug-4.3.1.tgz",
             "integrity": "sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==",
-            "dev": true,
             "dependencies": {
                 "ms": "2.1.2"
             },
@@ -10299,8 +10298,7 @@
         "node_modules/ms": {
             "version": "2.1.2",
             "resolved": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz",
-            "integrity": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==",
-            "dev": true
+            "integrity": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
         },
         "node_modules/multicast-dns": {
             "version": "6.2.3",
@@ -11885,7 +11883,6 @@
             "resolved": "https://registry.npmjs.org/popper.js/-/popper.js-1.16.1.tgz",
             "integrity": "sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==",
             "deprecated": "You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1",
-            "dev": true,
             "funding": {
                 "type": "opencollective",
                 "url": "https://opencollective.com/popperjs"
@@ -20702,7 +20699,8 @@
         "bootstrap": {
             "version": "4.6.0",
             "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.6.0.tgz",
-            "integrity": "sha512-Io55IuQY3kydzHtbGvQya3H+KorS/M9rSNyfCGCg9WZ4pyT/lCxIlpJgG1GXW/PswzC84Tr2fBYi+7+jFVQQBw=="
+            "integrity": "sha512-Io55IuQY3kydzHtbGvQya3H+KorS/M9rSNyfCGCg9WZ4pyT/lCxIlpJgG1GXW/PswzC84Tr2fBYi+7+jFVQQBw==",
+            "requires": {}
         },
         "brace-expansion": {
             "version": "1.1.11",
@@ -22277,7 +22275,6 @@
             "version": "4.3.1",
             "resolved": "https://registry.npmjs.org/debug/-/debug-4.3.1.tgz",
             "integrity": "sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==",
-            "dev": true,
             "requires": {
                 "ms": "2.1.2"
             }
@@ -26113,7 +26110,8 @@
         "lazy-debug-legacy": {
             "version": "0.0.1",
             "resolved": "https://registry.npmjs.org/lazy-debug-legacy/-/lazy-debug-legacy-0.0.1.tgz",
-            "integrity": "sha1-U3cWwHduTPeePtG2IfdljCkRsbE="
+            "integrity": "sha1-U3cWwHduTPeePtG2IfdljCkRsbE=",
+            "requires": {}
         },
         "lazystream": {
             "version": "1.0.0",
@@ -26894,8 +26892,7 @@
         "ms": {
             "version": "2.1.2",
             "resolved": "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz",
-            "integrity": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==",
-            "dev": true
+            "integrity": "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
         },
         "multicast-dns": {
             "version": "6.2.3",
@@ -28155,8 +28152,7 @@
         "popper.js": {
             "version": "1.16.1",
             "resolved": "https://registry.npmjs.org/popper.js/-/popper.js-1.16.1.tgz",
-            "integrity": "sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==",
-            "dev": true
+            "integrity": "sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ=="
         },
         "portfinder": {
             "version": "1.0.28",
