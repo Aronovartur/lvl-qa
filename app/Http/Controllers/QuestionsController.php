@@ -19,6 +19,7 @@ class QuestionsController extends Controller
 
         return view('questions.index', compact('questions'));
 
+
     }
 
     /**
