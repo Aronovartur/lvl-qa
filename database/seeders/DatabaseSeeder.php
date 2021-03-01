@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
 
+        //create user with questions - laravel 8 style:
         User::factory()->hasQuestions(50)->create();
     }
 }
