@@ -35,7 +35,7 @@
                             <strong>{{$question->answers}}</strong> {{Str::plural('answer',$question->answers)}}
                         </div>
                         <div class="view">
-                             {{$question->views. "" .Str::plural('view',$question->views)}}
+                             {{$question->views. " " .Str::plural('view',$question->views)}}
                         </div>
 
 
@@ -47,6 +47,11 @@
                             <h3 class="mt-0"><a href="{{$question->url}}" >{{$question->title}}</a></h3>
                             <div class="ml-auto">
                                 <a href="{{route('questions.edit', $question->id)}}" class="btn btn-sm btn-outline-info">Edit</a>
+                                <form class="form-delete" action="{{route('questions.destroy', $question->id)}}" method="post">
+                                    @method('DELETE')
+                                    @csrf
+                                    <button type="submit" class="btn btn-sm btn-outline-danger">Delete</button>
+                                </form>
                             </div>
                         </div>
 
