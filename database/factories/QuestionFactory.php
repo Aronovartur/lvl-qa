@@ -26,6 +26,8 @@ class QuestionFactory extends Factory
             'user_id'=>User::factory(),
             'title' => rtrim($this->faker->sentences(rand(1,3),true)),
             'body' =>$this->faker->paragraphs(rand(3,7), true),
+            'answers_count'=>rand(0,10),
+            'votes'=>rand(-3,10)
         ];
     }
 }

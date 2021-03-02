@@ -27,6 +27,7 @@ class CreateQuestionsTable extends Migration
             $table->unsignedInteger('views')->default(0);
             $table->foreign("user_id")->references("id")->on("users")->onDelete("cascade");
 
+
         });
     }
 
