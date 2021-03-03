@@ -6,7 +6,7 @@
 
 
 <link rel="stylesheet" href="/css/app.css">
-
+    <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
