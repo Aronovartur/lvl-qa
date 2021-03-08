@@ -22,3 +22,6 @@ Route::get('/questions/{slug}',[\App\Http\Controllers\QuestionsController::class
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+//Route::post('questions/{question}/answers',[\App\Http\Controllers\AnswersController::class,  'store'])->name('answers.store');
+Route::resource('questions.answers',\App\Http\Controllers\AnswersController::class)->except(['index','create','show']);
